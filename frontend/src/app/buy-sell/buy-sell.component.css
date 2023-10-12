@@ -1,0 +1,145 @@
+
+/* Style the "active" element to highlight the current page */
+
+.buysellcard{
+    border: none;
+    border-radius: 2px;
+    background-color:#33363d;
+    color: #fff;
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+/* input{
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    margin-left: 16px;
+    font-size: 17px;
+    background-color:#f1f4f9;
+    color: black;
+    border-radius: 2px;
+}
+
+/* Style the Go button */
+.buySell > button {
+    float: left;
+    padding: 6px;
+    border: none;
+    font-size: 17px;
+    border-radius: 2px;
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: #33363d;
+    color: #fff;
+    border: solid 1.5px #fff;
+    margin-left: 4px;
+}
+
+.buySell > button:hover {
+    background-color:#88889a;
+    color: #33363d;
+}
+
+.info {
+    font-size: 24px;
+  }
+
+.input{
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-box{
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.input-search{
+  height: 25px;
+  width: 25px;
+  border-style: none;
+  padding: 10px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  outline: none;
+  border-radius: 2px;
+  transition: all .5s ease-in-out;
+  background-color:#88889a;
+  padding-right: 15px;
+  color:#fff;
+}
+.input-search::placeholder{
+  color:rgba(255,255,255,.5);
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.btn-search{
+  width: 25px;
+  height: 25px;
+  border-style: none;
+  font-size: 14px;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+  border-radius: 2px;
+  position: absolute;
+  right: 0px;
+  color:#ffffff ;
+  background-color:transparent;
+  pointer-events: painted;  
+}
+.btn-search:focus ~ .input-search{
+  width: 200px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+.input-search:focus{
+  width: 200px;
+  border-radius: 0px;
+  background-color: transparent;
+  border-bottom:1px solid rgba(255,255,255,.5);
+  transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+}
+  
+  .input-qty {
+  float: left;
+  border: solid 1.5px #9e9e9e;
+  border-radius: 2px;
+  background: none;
+  padding: 1rem;
+  font-size: 1rem;
+  margin-right: 10px;
+  color: #000000;
+  height: 50px;
+  margin-top: 5px;
+  transition: border 150ms cubic-bezier(0.4,0,0.2,1);
+  }
+  
+  .user-label {
+  position: absolute;
+  left: 32px;
+  color: #e8e8e8;
+  pointer-events: none;
+  transform: translateY(1rem);
+  transition: 150ms cubic-bezier(0.4,0,0.2,1);
+  }
+  
+  .input-qty:focus  {
+  outline: none;
+  border: 1.5px solid #fff;
+  }
+  
+  .input-qty:focus ~ label {
+  transform: translateY(-50%) scale(0.8);
+  background-color: #33363d;
+  padding: 0 .2em;
+  color: #fff;
+  }

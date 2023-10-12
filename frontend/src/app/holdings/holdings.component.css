@@ -1,0 +1,36 @@
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    height: 50px;
+  }
+
+
+  th {
+    background-color: #f1f4f9;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f8fafc;
+  }
+
+  .table-card{
+    border-radius: 5px;
+    overflow:hidden;
+    margin-right: 20px;
+  }
+
+  /* Style the Go button */
+button {
+  border: none;
+  font-size: 17px;
+  background-color:#f1f4f9;
+  color: #33363d;
+  margin-right: 5px;
+}
+
+button:hover {
+  color: #f1f4f9;
+  background-color: #33363d;
+  border-radius: 100%;
+}

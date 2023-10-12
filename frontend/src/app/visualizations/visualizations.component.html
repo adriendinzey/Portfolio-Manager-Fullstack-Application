@@ -1,0 +1,52 @@
+<div class="container-fluid py-3">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="accounts-card p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="ms-2">
+                            <h5 class="mb-0">Cash</h5>
+                        </div>
+                    </div>
+                    <div *ngIf="cashBalance!=0"class="change"> <i *ngIf="accountTotals >= 0" class="bi bi-arrow-up-circle-fill"></i><i *ngIf="accountTotals < 0" class="bi bi-arrow-down-circle-fill"></i> <span class="ms-1">{{(accountTotals/cashBalance).toFixed(2)}}</span> </div>
+                </div>
+                <div class="ms-2 mt-4">
+                    <h2 *ngIf="cashBalance" class="heading">USD {{cashBalance | currency:'USD'}}</h2>
+                    <h2 *ngIf="!cashBalance" class="heading">Loading...</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="accounts-card-down p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="ms-2">
+                            <h5 class="mb-0">Portfolio</h5>
+                        </div>
+                    </div>
+                    <div *ngIf="portfolioBalance!=0" class="change-down"> <i *ngIf="stockTotals >= 0" class="bi bi-arrow-up-circle-fill"></i><i *ngIf="stockTotals < 0" class="bi bi-arrow-down-circle-fill"></i> <span class="ms-1">{{(stockTotals/portfolioBalance).toFixed(2)}}</span> </div>
+                </div>
+                <div class="ms-2 mt-4">
+                    <h2 *ngIf="portfolioBalance" class="heading">USD {{portfolioBalance | currency:'USD'}}</h2>
+                    <h2 *ngIf="!portfolioBalance" class="heading">Loading...</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-3">
+        <div class="col">
+            <div class="worth-card p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="ms-2">
+                            <h5 class="mb-0">Net Worth</h5>
+                        </div>
+                    </div>
+                </div>
+                <canvas id="myChart"></canvas>
+            </div>
+        </div>
+    </div>
+  </div>

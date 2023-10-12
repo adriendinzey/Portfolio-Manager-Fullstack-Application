@@ -1,0 +1,16 @@
+.container-fluid{
+    padding-right:0;
+    padding-left:0;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.app{
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    height: 90%;
+    width: 90%;
+    background-color:#fff;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}

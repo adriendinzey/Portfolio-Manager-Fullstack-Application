@@ -1,0 +1,65 @@
+.accounts-card {
+    border: none;
+    border-radius: 2px;
+    background-color:aliceblue;
+}
+
+.accounts-card-down {
+    border: none;
+    border-radius: 2px;
+    background-color:bisque;
+}
+
+.worth-card {
+    border: none;
+    border-radius: 2px;
+    background-color:#33363d;
+    color: #fff;
+}
+
+.change {
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    display: flex;
+    color:royalblue;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px
+}
+
+.change-down {
+    width: 60px;
+    height: 25px;
+    padding-bottom: 3px;
+    display: flex;
+    color:chocolate;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px
+}
+
+.change i{
+    font-size: 14px;
+    margin-top: 1px;
+}
+
+button {
+    border: none;
+    font-size: 17px;
+    background-color:#33363d;
+    color: #f1f4f9;
+    margin-left: 5px;
+  }
+  
+button:hover {
+    color: #33363d;
+    background-color: #f1f4f9;
+    border-radius: 100%;
+}
+
+canvas {
+    height: 10%;
+}

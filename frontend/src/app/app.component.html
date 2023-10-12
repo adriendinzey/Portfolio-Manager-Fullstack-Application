@@ -1,0 +1,31 @@
+<!-- <app-header></app-header> -->
+
+<div class="app container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+        <app-profile></app-profile>
+      </div>
+      <div class="col">
+        <div class="row my-3">
+          <header></header>
+          <app-topnavigator></app-topnavigator>
+        </div>
+        <div class="row my-3">
+          <div class="col-md-8">
+            <app-visualizations></app-visualizations>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <app-buy-sell (updateVisuals)="updateVisuals()"></app-buy-sell>
+            </div>
+            <div class="row">
+              <app-holdings></app-holdings>
+            </div>
+          </div>
+        </div>
+        <div class="row my-3">
+          <footer></footer>
+        </div>
+      </div>
+  </div>
+</div>
