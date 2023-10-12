@@ -2,9 +2,7 @@
 
 ### Live Demo
 
-<video width="1920" height="1080" controls>
-  <source src="Demo Video.mp4" type="video/mp4">
-</video>
+![](Demo Video.mp4)
 
 ## About
 
