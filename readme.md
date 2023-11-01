@@ -2,7 +2,7 @@
 
 ### Live Demo
 
-https://youtu.be/p0GuMR8rphQ
+https://adriendinzey.github.io/images/Portfolio%20App%20Demo%20Video.mp4
 
 ## About
 
